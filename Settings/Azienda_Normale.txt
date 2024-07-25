@@ -1,5 +1,11 @@
 Spett.le [Destinatario],
 
-Si comunica che la fattura N.[N.Fattura] emessa il [Data Emissione] per un importo di [Importo] è scaduta il [Data Scadenza]. Si prega di procedere al pagamento.
+La presente per ricordarVi che abbiamo emesso le seguenti fatture nei Vostri confronti:
+
+[Fatture]
+
+Vi preghiamo di voler procedere al pagamento degli importi dovuti al più presto possibile.
+
+Nel ringraziarVi per la collaborazione, restiamo a disposizione per eventuali chiarimenti.
 
 Cordiali saluti.

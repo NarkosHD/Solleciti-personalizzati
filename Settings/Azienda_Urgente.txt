@@ -1,5 +1,9 @@
 Spett.le [Destinatario],
 
-La fattura N.[N.Fattura] emessa il [Data Emissione] per un importo di [Importo] è scaduta il [Data Scadenza]. Vi invitiamo a effettuare il pagamento con urgenza.
+Con la presente siamo a sollecitare il pagamento urgente delle seguenti fatture emesse nei Vostri confronti:
 
-Cordiali saluti.
+[Fatture]
+
+Vi invitiamo a regolarizzare la Vostra posizione contabile con la massima sollecitudine.
+
+In attesa di un Vostro riscontro, porgiamo distinti saluti.
