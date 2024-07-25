@@ -1,0 +1,5 @@
+Gentile [Destinatario],
+
+La fattura N.[N.Fattura] emessa il [Data Emissione] per un importo di [Importo] è scaduta il [Data Scadenza]. La invitiamo a effettuare il pagamento immediatamente.
+
+Cordiali saluti.
