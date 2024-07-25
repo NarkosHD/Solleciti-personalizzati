@@ -13,7 +13,8 @@ def calcola_data_scadenza(data_emissione, giorni_scadenza):
 
 # Funzione per generare il testo della mail
 def genera_testo_mail(destinatario, nome, n_fattura, data_emissione, importo, data_scadenza, sollecito, testi_mail):
-    testo = testi_mail[f"{destinatario}_{sollecito}"]
+    key = f"{destinatario}_{sollecito}"
+    testo = testi_mail[key]
     testo = testo.replace("[Destinatario]", nome)
     testo = testo.replace("[N.Fattura]", n_fattura)
     testo = testo.replace("[Data Emissione]", data_emissione.strftime('%d/%m/%Y'))
@@ -80,5 +81,6 @@ with st.expander("Impostazioni testi sollecito"):
 
 # Genera il testo della mail
 if st.button("Genera Testo Mail"):
+    key = f"{destinatario}_{sollecito}"
     testo_mail = genera_testo_mail(destinatario, nome, n_fattura, data_emissione, importo, data_scadenza, sollecito, st.session_state.testi_mail)
     st.text_area("Testo della Mail", testo_mail, height=200)
